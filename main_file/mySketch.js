@@ -335,7 +335,7 @@ function modeSwitchM() {
 	background(100);
 	legend(totalShiftX, totalShiftY);
 	for (let personPoint of personArray) {
-			personPoint.updateMaritalStatus(maritalToggle);
+			personPoint.updateMaritalToggle(maritalToggle);
 			personPoint.show();
 	}
 }
