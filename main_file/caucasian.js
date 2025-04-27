@@ -59,7 +59,7 @@ class Caucasian extends Person {
 	/**     
 	 * Toggle whether or not to show color by ethnicity or marital status
 	 */
-	updateMaritalStatus(maritalStatus) {
+	updateMaritalToggle(maritalStatus) {
 		this.maritalToggle = maritalStatus;
 	}
 	
