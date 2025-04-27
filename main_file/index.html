@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<!-- keep the line below for OpenProcessing compatibility -->
+	<script src="https://openprocessing.org/openprocessing_sketch.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.11.2/lib/p5.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/p5@1.11.2/lib/addons/p5.sound.min.js"></script>
+	<script src="person.js"></script>
+	<script src="africanAmerican.js"></script>
+	<script src="caucasian.js"></script>
+	<script src="hispanic.js"></script>
+	<script src="asian.js"></script>
+	<script src="other.js"></script>
+	<script src="mySketch.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>   
+	<h2>COMPAS Racial Bias Dataset Display</h2>
+	
+	<button onclick="modeSwitchD()">Total Decile Score</button> 
+	<button onclick="modeSwitchS()">Recommended Supervision</button> 
+	<button onclick="modeSwitchM()">Toggle Color Mode</button> 
+	
+	<br> <br>
+	
+	<input type="search" id="searchBar" name="searchBar" />
+
+	<button onclick="search()">Search</button> 
+	
+	<p id="sortTimeText"></p>
+	
+	<p id="searchTimeText"></p>
+	
+</body>
+
+</html>
